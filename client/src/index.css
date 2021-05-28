@@ -51,6 +51,34 @@ code {
   margin-top:50px;
 }
 
+.table-style{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tbody{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.td,th,tr{
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+.td{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #FF416C;
+  color: white;
+}
+
 .container-register{
   max-width: 380px;
   margin: 80px auto;
@@ -89,7 +117,7 @@ code {
   background-color: #FF416C;
 } 
 .container-emp {
-  max-width: 870px;
+  max-width: 1000px;
   margin: 35px auto;
   overflow: auto;
   padding: 30px;
