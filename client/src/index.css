@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lavender;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-control {
+  margin: 18px 0;
+}
+
+.form-control label {
+  display: block;
+  margin-left:7px;
+  font-size:15px;
+}
+.form-control input {
+  width: 350px;
+  height: 35px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 14px;
+  border:none;
+  border-radius:10px;
+  box-shadow: 5px 5px 5px 5px#888;
+}
+.btn {
+  display: inline-block;
+  background: #000;
+  color:black;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn-add{
+  margin-left: 100px;
+  margin-top:50px;
+}
+
+.container-register{
+  max-width: 380px;
+  margin: 80px auto;
+  overflow: auto;
+  min-height: 400px;
+  padding: 30px;
+  background-color: white;
+}
+
+.btn-signup{
+  background:#FF416C;
+  color:black;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 380px;
+  margin: 80px;
+  min-height: 400px;
+  padding: 30px;
+  margin-left:260px;
+  background-color: white;
+} 
+.containerone {
+  max-width: 380px;
+  margin: 80px;
+  min-height: 400px;
+  margin-left:700px;
+  margin-top:-540px;
+  padding: 30px;
+  background-color: #FF416C;
+} 
+.container-emp {
+  max-width: 870px;
+  margin: 35px auto;
+  overflow: auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color:white;
+} 
+.column{
+  width:50%;
+  float:left;
+}
+
+
+
