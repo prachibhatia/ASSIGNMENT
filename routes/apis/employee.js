@@ -33,6 +33,12 @@ router.post('/', jsonParser, cors(), async (req , res) => {
     employee.save().then(employees=>res.json(employees));
 })
 
+router.get('/',jsonParser,cors(),async(req,res)=>{
+     Employee.find()
+     .then(employee => 
+        res.json(employee));
+})
+
 
 
 module.exports = router;

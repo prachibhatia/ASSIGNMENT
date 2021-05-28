@@ -40,8 +40,12 @@ const Employee = () => {
         })
         const data = await res.json();
         alert("Employee information successfully saved");
-        history.push('/');
+        history.push('/EmployeeDashboard');
     }
+    }
+
+    const empdata = ()=>{
+           history.push('/EmployeeDashboard');
     }
 
     return (
@@ -66,6 +70,7 @@ const Employee = () => {
                     <input type="text" placeholder="Enter Employee id" value={empid} onChange={(e)=>setempid(e.target.value)}></input>
                 </div>
                 <Button value="Add" color="#FF416C" onclick={userinfo}/>
+                <Button value="Get Employee Data" color="#FF416C" onclick={empdata}/>
                 </div>
                 <div className="column">
                 <div className="form-control">
