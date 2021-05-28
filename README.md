@@ -14,7 +14,7 @@ Complete front end is made using react.js and backened using Node.js/Express.js.
 ![image](https://user-images.githubusercontent.com/51504166/119983773-3ce1ad80-bfde-11eb-91b9-a4804650a324.png)
 
 **Show all Employees registered**
-![image](https://user-images.githubusercontent.com/51504166/119983671-158ae080-bfde-11eb-9c64-2b51073e789e.png)
+![image](https://user-images.githubusercontent.com/51504166/119984030-8fbb6500-bfde-11eb-97b3-1911d0999f4e.png)
 
 
 
